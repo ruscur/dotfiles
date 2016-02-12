@@ -1,6 +1,8 @@
 # ruscur's dotfiles
 Personal dotfiles for various things.
 
+Everything in this repository is licensed CC0, no rights reserved.
+
 ## .spacemacs
 
 I use spacemacs.  I tend to agree with the people who say that spacemacs
