@@ -30,7 +30,6 @@ values."
      git
      spotify
      erc
-     gnus
      ;; (shell :variables
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
@@ -201,7 +200,6 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
   (setq-default rust-enable-racer 1)
-  (exec-path-from-shell-initialize)
   )
 
 (defun dotspacemacs/user-config ()
@@ -231,13 +229,15 @@ layers configuration. You are free to put any user code."
  '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(fringe-mode 0 nil (fringe))
+ '(inhibit-startup-screen t)
  '(menu-bar-mode nil)
- '(tool-bar-mode nil)
-'(inhibit-startup-screen t))
+ '(org-startup-truncated nil)
+ '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(default ((t (:background nil))))
  '(company-tooltip-common ((t (:inherit company-tooltip :weight bold :underline nil))))
  '(company-tooltip-common-selection ((t (:inherit company-tooltip-selection :weight bold :underline nil)))))
