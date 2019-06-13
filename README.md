@@ -3,6 +3,12 @@ Personal dotfiles for various things.
 
 Everything in this repository is licensed CC0, no rights reserved.
 
+## DOOM
+
+I now use DOOM instead of spacemacs lol I'm updating this like 3 years
+after I wrote what's below.  That said I use DOOM pretty much for the
+same reasons as I used spacemacs, it's just faster and nicer.
+
 ## .spacemacs
 
 I use spacemacs.  I tend to agree with the people who say that spacemacs
