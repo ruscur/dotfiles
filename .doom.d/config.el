@@ -12,3 +12,5 @@
 (setq show-trailing-whitespace t)
 (require 'doom-themes)
 (setq doom-theme 'doom-tomorrow-night)
+(set-frame-parameter (selected-frame) 'alpha '(95 95))
+(add-to-list 'default-frame-alist '(alpha 95 95))
