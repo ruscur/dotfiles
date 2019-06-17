@@ -16,7 +16,7 @@
 (add-to-list 'default-frame-alist '(alpha 95 95))
 (setq diary-file "/home/ruscur/notes/diary.org")
 (setq org-agenda-include-diary t)
-(setq org-agenda-files "/home/ruscur/notes")
+(setq org-agenda-files (quote ("/home/ruscur/notes/")))
 (setq org-directory "/home/ruscur/notes")
 (setq org-agenda-window-setup (quote current-window))
 (setq org-log-done (quote time))
