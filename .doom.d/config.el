@@ -20,3 +20,6 @@
 (setq org-directory "/home/ruscur/notes")
 (setq org-agenda-window-setup (quote current-window))
 (setq org-log-done (quote time))
+(global-visual-line-mode 1)
+(setq visual-line-fringe-indicators (quote (left-curly-arrow right-curly-arrow)))
+(setq left-fringe-width 5)
