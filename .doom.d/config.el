@@ -23,3 +23,8 @@
 (global-visual-line-mode 1)
 (setq visual-line-fringe-indicators (quote (left-curly-arrow right-curly-arrow)))
 (setq left-fringe-width 5)
+(setq doom-font (font-spec :family "IBM Plex Mono" :size 13)
+			doom-variable-pitch-font (font-spec :family "IBM Plex Sans")) ; never actually works
+(setq lsp-auto-configure t)
+(setq doom-treemacs-enable-variable-pitch nil)
+(setq helm-ff-skip-boring-files t)
